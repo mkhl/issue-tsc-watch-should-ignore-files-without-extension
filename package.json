@@ -1,0 +1,13 @@
+{
+  "name": "tsc-watch-should-ignore-files-without-extension",
+  "version": "1.0.0",
+  "description": "reproduction: tsc -watch reacts when a file without an extension is created",
+  "author": "mkhl",
+  "license": "0BSD",
+  "devDependencies": {
+    "typescript": "^4.5.2"
+  },
+  "scripts": {
+    "watch": "tsc -watch -p ./"
+  }
+}
