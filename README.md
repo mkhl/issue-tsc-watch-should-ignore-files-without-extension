@@ -10,6 +10,7 @@ Steps to reproduce:
 5. `touch index.ts`
 6. Observe the correct output by tsc:
     > File change detected. Starting incremental compilation...
+
     > Found 0 errors. Watching for file changes.
 7. `touch bar.txt`
 8. Observe that tsc doesn't output _anything_ and ignores the file.
